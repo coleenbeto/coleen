@@ -1,0 +1,18 @@
+/* Styling for all h1 elements */
+h1 {
+    color: black;
+    line-height: 1.5;
+    border-style: dashed;
+    border-radius: 10px;
+    border-color: 'rgba(39, 98, 196, 0.58)';
+    background-color: 'rgba(39, 98, 196, 58)';
+}
+
+/* Styles for the navigation bar */
+nav.responsive-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 6%;
+    background-color: ;
+}

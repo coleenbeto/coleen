@@ -1,0 +1,44 @@
+/* Styles for the body element */
+body {
+ font-family: 'Arial', sans-serif;
+ margin: 20px;
+ background-color: #0066ff;
+ text-align: center;
+}
+/* Styling for all h1 elements */
+h1 {
+ color: #333;
+ text-align: center;
+ border-style: outset;
+ border-radius: 45px;
+ border-color: White;
+}
+/* Paragraph styling */
+p {
+ text-font: 50px;
+ color: black;
+ line-height: 1.5;
+text-align: center;
+border-style: outset;
+border-radius: 23px;
+border-color: lavender;
+}
+/* Styling a div with the class "styled-box" */
+.styled-box {
+ background-color: #33ccff;
+ padding: 20px;
+ margin-top: 20px;
+ text-align: center;
+ border-style: outset;
+ border-radius: 34px;
+ border-color: Orange;
+}
+/* Styling an element with the ID "unique-text" */
+#unique-text {
+ color: red;
+ font-weight: bold;
+text-align: center;
+border-style: outset;
+border-radius: 45px;
+bprder-color: yellow;
+}

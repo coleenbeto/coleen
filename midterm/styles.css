@@ -1,0 +1,101 @@
+/* Styles for the body element */
+body {
+    font-family: 'Script', Display;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(157, 189, 209, 0.38);
+    text-align: center;
+}
+
+/* Styling for all h1 elements */
+h1 {
+    color: black;
+    line-height: 1.5;
+     border-style: double;
+    border-radius:23px;
+    border-color: rgba(106, 182, 230, 0.38);
+    background-color: transparent;
+    font-weight: none;
+}
+
+/* Paragraph styling */
+p {
+    font-size:20px;
+    color: black;
+    line-height: 1.5;
+  border-style: double;
+    border-radius:23px;
+    border-color: rgba(106, 182, 230, 0.38);
+    font-weight: none;
+    text-align: center;
+  background-color: transparent;
+}
+
+/* Styling a div with the class "styled-box" */
+.styled-box {
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+    border-style: double;
+    border-radius: 23px;
+    border-color: rgba(106, 182, 230, 0.38);
+    font-size: 20px;
+    
+}
+
+/* Styling an element with the ID "unique-text" */
+#unique-text {
+    color: black;
+    font-weight: none;
+    text-align: center;
+    border-style: double;
+    border-radius: 23px;
+    border-color:rgba(106, 182, 230, 0.38);
+    background-color: transparent;
+}
+
+/* Styles for the navigation bar */
+nav.responsive-nav {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 2% 6%;
+    background-color: rgba(157, 189, 209, 0.38);
+}
+
+/* Styles for the navigation links */
+nav.responsive-nav a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black;
+    background-color: rgba(186, 207, 220, 38);
+    font-size: 20px;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+/* Hover effect for navigation links */
+nav.responsive-nav a:hover {
+    color: white;
+    transform: translateY(-5px);
+    border-style: double;
+    border-radius:23px;
+    border-color: rgba(186, 207, 220,38);
+    font-syle: Script;
+}
+
+/* Styling for the responsive-section */
+section.responsive-section {
+    padding: 20px;
+      border-style: double;
+    border-radius:23px;
+    border-color: rgba(186, 207, 220, 38);
+}
+
+img {
+ 	height: 40px;
+ 	width: 40px;
+ 	 background-size: contain;
+  	border: 1px solid rgba(186, 207, 220,38);
+
+}
